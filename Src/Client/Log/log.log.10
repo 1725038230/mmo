@@ -1,0 +1,535 @@
+2020-02-12 17:30:23,421 [ 1] INFO  Unity: LoadingManager start
+2020-02-12 17:30:23,437 [ 1] INFO  Unity: DoConnect
+2020-02-12 17:30:23,439 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2020-02-12 17:30:23,442 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2020-02-12 17:30:23,446 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2020-02-12 17:30:26,580 [ 1] INFO  Unity: DataManager > DataManager()
+2020-02-12 17:30:38,787 [ 1] INFO  Unity: 11111
+2020-02-12 17:30:41,050 [ 1] INFO  Unity: 进入
+2020-02-12 17:30:41,060 [ 1] INFO  Unity: LoadLevel: CharSelect
+2020-02-12 17:30:41,061 [ 1] INFO  Unity: StartCoroutine(LoadLevel(name))
+2020-02-12 17:30:41,346 [ 1] INFO  Unity: LevelLoadCompleted:1
+2020-02-12 17:30:41,353 [ 1] INFO  Unity: 数量：3
+2020-02-12 17:30:42,465 [ 1] INFO  Unity: idx2
+2020-02-12 17:30:42,466 [ 1] INFO  Unity: Select Char:22,  fashi   ,Wizard
+2020-02-12 17:30:43,324 [ 1] INFO  Unity: SendGameEnterRequset: charactorIdx:2
+2020-02-12 17:30:43,361 [ 1] INFO  Unity:  UserGameEnterResponse:Success,none
+2020-02-12 17:30:43,363 [ 1] INFO  Unity: MapCharacterEnterRequest:1
+2020-02-12 17:30:43,364 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2020-02-12 17:30:43,366 [ 1] INFO  Unity: ---------------------------------------AddCharacter:1:fashi Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2020-02-12 17:30:43,369 [ 1] INFO  Unity: LoadLevel: MainCity
+2020-02-12 17:30:43,370 [ 1] INFO  Unity: StartCoroutine(LoadLevel(name))
+2020-02-12 17:30:43,758 [ 1] INFO  Unity: LevelLoadCompleted:1
+2020-02-12 17:30:43,762 [ 1] INFO  Unity: -----------------------------创建物体
+2020-02-12 17:30:43,763 [ 1] INFO  Unity: -----------------------------创建完成
+2020-02-12 17:31:07,646 [ 1] INFO  Unity: MapCharacterEnterRequest:1
+2020-02-12 17:31:07,647 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2020-02-12 17:31:07,647 [ 1] INFO  Unity: ---------------------------------------AddCharacter:2:6666 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2020-02-12 17:31:07,649 [ 1] INFO  Unity: -----------------进入OnCharacterEnter
+2020-02-12 17:31:07,680 [ 1] INFO  Unity: -----------------------------创建物体
+2020-02-12 17:31:07,681 [ 1] INFO  Unity: -----------------------------创建完成
+2020-02-12 17:31:26,531 [ 1] INFO  Unity: OnMapCharacterLeave:char ID:2
+2020-02-12 17:31:26,533 [ 1] INFO  Unity: RemoveCharacter:2
+2020-02-12 17:31:26,540 [ 1] INFO  Unity: Character_2_6666 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2020-02-12 17:31:30,473 [ 1] INFO  Unity: MapCharacterEnterRequest:1
+2020-02-12 17:31:30,473 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2020-02-12 17:31:30,474 [ 1] INFO  Unity: ---------------------------------------AddCharacter:3:6666 Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2020-02-12 17:31:30,475 [ 1] INFO  Unity: -----------------进入OnCharacterEnter
+2020-02-12 17:31:30,476 [ 1] INFO  Unity: -----------------------------创建物体
+2020-02-12 17:31:30,477 [ 1] INFO  Unity: -----------------------------创建完成
+2020-02-12 17:31:36,972 [ 1] INFO  Unity: LoadLevel: CharSelect
+2020-02-12 17:31:36,973 [ 1] INFO  Unity: StartCoroutine(LoadLevel(name))
+2020-02-12 17:31:37,005 [ 1] INFO  Unity: OnMapCharacterLeave:char ID:1
+2020-02-12 17:31:37,008 [ 1] INFO  Unity: RemoveCharacter:1
+2020-02-12 17:31:37,009 [ 1] INFO  Unity: RemoveCharacter:3
+2020-02-12 17:31:37,009 [ 1] INFO  Unity: UserGameLeaveResponse,:Success,none
+2020-02-12 17:31:37,009 [ 1] INFO  Unity: Character_1_fashi OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2020-02-12 17:31:37,011 [ 1] INFO  Unity: Character_3_6666 OnDestroy :ID:3 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2020-02-12 17:31:37,180 [ 1] INFO  Unity: LevelLoadCompleted:1
+2020-02-12 17:31:37,184 [ 1] INFO  Unity: 数量：3
+2020-02-12 17:31:43,101 [ 1] INFO  Unity: idx1
+2020-02-12 17:31:43,102 [ 1] INFO  Unity: Select Char:21,  zhanshi   ,Warrior
+2020-02-12 17:31:43,996 [ 1] INFO  Unity: SendGameEnterRequset: charactorIdx:1
+2020-02-12 17:31:44,030 [ 1] INFO  Unity:  UserGameEnterResponse:Success,none
+2020-02-12 17:31:44,031 [ 1] INFO  Unity: MapCharacterEnterRequest:1
+2020-02-12 17:31:44,032 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2020-02-12 17:31:44,033 [ 1] INFO  Unity: ---------------------------------------AddCharacter:4:zhanshi Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2020-02-12 17:31:44,034 [ 1] INFO  Unity: -----------------进入OnCharacterEnter
+2020-02-12 17:31:44,035 [ 1] INFO  Unity: -----------------------------创建物体
+2020-02-12 17:31:44,036 [ 1] INFO  Unity: -----------------------------创建完成
+2020-02-12 17:31:44,037 [ 1] INFO  Unity: ---------------------------------------AddCharacter:3:6666 Map:1 Entity:(3:pos:(5266,4338,820),dir:(-28,96,0),spd:0
+2020-02-12 17:31:44,038 [ 1] INFO  Unity: -----------------进入OnCharacterEnter
+2020-02-12 17:31:44,039 [ 1] INFO  Unity: -----------------------------创建物体
+2020-02-12 17:31:44,040 [ 1] INFO  Unity: -----------------------------创建完成
+2020-02-12 17:31:44,041 [ 1] INFO  Unity: LoadLevel: MainCity
+2020-02-12 17:31:44,042 [ 1] INFO  Unity: StartCoroutine(LoadLevel(name))
+2020-02-12 17:31:44,466 [ 1] INFO  Unity: LevelLoadCompleted:1
+2020-02-12 17:31:45,479 [ 1] INFO  Unity: SetDirection:(98, 19, 0)
+2020-02-12 17:31:45,579 [ 1] INFO  Unity: SetDirection:(93, 38, 0)
+2020-02-12 17:31:45,677 [ 1] INFO  Unity: SetDirection:(83, 56, 0)
+2020-02-12 17:31:45,760 [ 1] INFO  Unity: SetDirection:(72, 70, 0)
+2020-02-12 17:31:45,847 [ 1] INFO  Unity: SetDirection:(56, 83, 0)
+2020-02-12 17:31:45,945 [ 1] INFO  Unity: SetDirection:(40, 91, 0)
+2020-02-12 17:31:46,045 [ 1] INFO  Unity: SetDirection:(21, 98, 0)
+2020-02-12 17:31:46,145 [ 1] INFO  Unity: SetDirection:(2, 100, 0)
+2020-02-12 17:31:46,179 [ 1] INFO  Unity: MoveForward
+2020-02-12 17:31:46,366 [ 1] INFO  Unity: SetDirection:(-16, 99, 0)
+2020-02-12 17:31:47,278 [ 1] INFO  Unity: Stop
+2020-02-12 17:31:47,279 [ 1] INFO  Unity: SetDirection:(4, 100, 0)
+2020-02-12 17:31:47,378 [ 1] INFO  Unity: SetDirection:(23, 97, 0)
+2020-02-12 17:31:47,477 [ 1] INFO  Unity: SetDirection:(43, 90, 0)
+2020-02-12 17:31:47,577 [ 1] INFO  Unity: SetDirection:(61, 80, 0)
+2020-02-12 17:31:47,677 [ 1] INFO  Unity: SetDirection:(76, 65, 0)
+2020-02-12 17:31:47,775 [ 1] INFO  Unity: SetDirection:(88, 48, 0)
+2020-02-12 17:31:47,876 [ 1] INFO  Unity: SetDirection:(96, 29, 0)
+2020-02-12 17:31:47,957 [ 1] INFO  Unity: SetDirection:(99, 12, 0)
+2020-02-12 17:31:48,039 [ 1] INFO  Unity: SetDirection:(100, -6, 0)
+2020-02-12 17:31:48,155 [ 1] INFO  Unity: SetDirection:(96, -26, 0)
+2020-02-12 17:31:48,239 [ 1] INFO  Unity: SetDirection:(90, -43, 0)
+2020-02-12 17:31:48,337 [ 1] INFO  Unity: SetDirection:(80, -61, 0)
+2020-02-12 17:31:48,437 [ 1] INFO  Unity: SetDirection:(66, -75, 0)
+2020-02-12 17:31:48,569 [ 1] INFO  Unity: SetDirection:(52, -85, 0)
+2020-02-12 17:31:50,414 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:50,511 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:50,594 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:50,675 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:50,775 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:50,856 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:50,956 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:51,105 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:51,455 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:52,215 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:52,365 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:52,464 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:52,564 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:52,663 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:52,745 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:52,863 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:52,963 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:53,045 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:53,144 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:53,229 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:53,345 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:53,410 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:53,509 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:53,608 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:53,709 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:53,908 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:54,486 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:56,226 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:56,343 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:57,069 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:57,119 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:57,152 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:57,783 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:57,914 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:58,013 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:58,113 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:58,213 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:58,295 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:58,394 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:59,075 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:59,292 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:59,654 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:59,771 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:59,868 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:31:59,986 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:00,183 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:00,300 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:00,383 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:00,482 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:00,615 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:00,648 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:01,260 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:01,360 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:01,542 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:02,306 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:02,407 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:02,504 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:02,602 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:02,685 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:02,785 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:02,883 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:02,966 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:03,067 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:03,166 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:03,265 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:03,464 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:04,957 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:05,915 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:06,048 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:06,297 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:06,992 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:07,026 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:08,171 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:08,269 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:08,403 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:08,616 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:09,064 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:10,821 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:10,839 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:13,106 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:13,404 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:13,521 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:13,622 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:13,702 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:13,804 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:13,903 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:14,004 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:14,086 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:14,185 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:14,284 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:14,381 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:14,481 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:14,580 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:14,663 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:14,763 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:14,845 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:14,961 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:15,044 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:15,144 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:15,243 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:15,343 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:15,442 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:15,641 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:16,536 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:16,635 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:16,735 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:16,819 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:16,917 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:17,017 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:17,116 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:17,198 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:17,296 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:17,380 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:17,479 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:17,728 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:17,829 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:17,910 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:18,009 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:18,094 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:18,174 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:18,424 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:18,523 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:18,605 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:18,706 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:18,804 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:18,904 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:19,004 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:19,086 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:19,187 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:19,302 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:19,385 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:19,470 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:19,568 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:19,668 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:19,767 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:19,851 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:19,949 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:20,064 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:20,213 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:21,133 [ 1] INFO  Unity: SetDirection:(68, -73, 0)
+2020-02-12 17:32:21,234 [ 1] INFO  Unity: SetDirection:(81, -58, 0)
+2020-02-12 17:32:21,269 [ 1] INFO  Unity: MoveForward
+2020-02-12 17:32:21,332 [ 1] INFO  Unity: SetDirection:(92, -40, 0)
+2020-02-12 17:32:21,449 [ 1] INFO  Unity: SetDirection:(97, -23, 0)
+2020-02-12 17:32:22,110 [ 1] INFO  Unity: SetDirection:(90, -43, 0)
+2020-02-12 17:32:22,210 [ 1] INFO  Unity: SetDirection:(80, -60, 0)
+2020-02-12 17:32:22,293 [ 1] INFO  Unity: SetDirection:(68, -73, 0)
+2020-02-12 17:32:22,376 [ 1] INFO  Unity: SetDirection:(54, -84, 0)
+2020-02-12 17:32:22,475 [ 1] INFO  Unity: SetDirection:(36, -93, 0)
+2020-02-12 17:32:22,574 [ 1] INFO  Unity: SetDirection:(19, -98, 0)
+2020-02-12 17:32:22,658 [ 1] INFO  Unity: SetDirection:(1, -100, 0)
+2020-02-12 17:32:22,757 [ 1] INFO  Unity: SetDirection:(-19, -98, 0)
+2020-02-12 17:32:22,839 [ 1] INFO  Unity: SetDirection:(-36, -93, 0)
+2020-02-12 17:32:22,923 [ 1] INFO  Unity: SetDirection:(-52, -86, 0)
+2020-02-12 17:32:23,006 [ 1] INFO  Unity: SetDirection:(-66, -75, 0)
+2020-02-12 17:32:23,104 [ 1] INFO  Unity: SetDirection:(-80, -60, 0)
+2020-02-12 17:32:23,188 [ 1] INFO  Unity: SetDirection:(-89, -45, 0)
+2020-02-12 17:32:23,266 [ 1] INFO  Unity: SetDirection:(-96, -29, 0)
+2020-02-12 17:32:23,370 [ 1] INFO  Unity: SetDirection:(-99, -10, 0)
+2020-02-12 17:32:23,468 [ 1] INFO  Unity: SetDirection:(-99, 11, 0)
+2020-02-12 17:32:23,568 [ 1] INFO  Unity: SetDirection:(-95, 31, 0)
+2020-02-12 17:32:23,668 [ 1] INFO  Unity: SetDirection:(-88, 48, 0)
+2020-02-12 17:32:23,866 [ 1] INFO  Unity: SetDirection:(-78, 63, 0)
+2020-02-12 17:32:23,900 [ 1] INFO  Unity: Stop
+2020-02-12 17:32:26,086 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:26,170 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:26,269 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:26,352 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:26,451 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:26,535 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:26,617 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:26,733 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:26,818 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:26,917 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:27,015 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:27,116 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:27,216 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:27,300 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:27,397 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:27,579 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:27,926 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:27,993 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:28,091 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:28,174 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:28,242 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:28,274 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:28,357 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:28,389 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:28,472 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:28,870 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:28,970 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:30,131 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:30,315 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:31,554 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:31,653 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:31,736 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:31,819 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:31,919 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:32,018 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:32,101 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:32,184 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:32,284 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:32,381 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:32,498 [ 1] INFO  Unity: MapEntitySyncResponse:Entity:1
+   [3]evt:SkillBridge.Message.NEntity  enetitySkillBridge.Message.NEntity
+2020-02-12 17:32:33,628 [ 1] INFO  Unity: OnMapCharacterLeave:char ID:3
+2020-02-12 17:32:33,630 [ 1] INFO  Unity: RemoveCharacter:3
+2020-02-12 17:32:33,631 [ 1] INFO  Unity: Character_3_6666 OnDestroy :ID:3 POS:(4822, 3560, 806) DIR:(97, 23, 0) SPD:0 
+2020-02-12 17:32:37,219 [ 1] INFO  Unity: SetDirection:(-88, 47, 0)
+2020-02-12 17:32:37,319 [ 1] INFO  Unity: SetDirection:(-96, 30, 0)
+2020-02-12 17:32:37,401 [ 1] INFO  Unity: SetDirection:(-99, 13, 0)
+2020-02-12 17:32:37,485 [ 1] INFO  Unity: SetDirection:(-100, -5, 0)
+2020-02-12 17:32:37,585 [ 1] INFO  Unity: SetDirection:(-97, -26, 0)
+2020-02-12 17:32:37,684 [ 1] INFO  Unity: SetDirection:(-89, -45, 0)
+2020-02-12 17:32:37,783 [ 1] INFO  Unity: SetDirection:(-78, -63, 0)
+2020-02-12 17:32:37,883 [ 1] INFO  Unity: SetDirection:(-63, -77, 0)
+2020-02-12 17:32:37,967 [ 1] INFO  Unity: SetDirection:(-49, -87, 0)
+2020-02-12 17:32:38,049 [ 1] INFO  Unity: SetDirection:(-33, -94, 0)
+2020-02-12 17:32:38,132 [ 1] INFO  Unity: SetDirection:(-16, -99, 0)
+2020-02-12 17:32:38,230 [ 1] INFO  Unity: SetDirection:(5, -100, 0)
+2020-02-12 17:32:38,330 [ 1] INFO  Unity: SetDirection:(26, -97, 0)
+2020-02-12 17:32:38,430 [ 1] INFO  Unity: SetDirection:(45, -89, 0)
+2020-02-12 17:32:38,529 [ 1] INFO  Unity: SetDirection:(63, -78, 0)
+2020-02-12 17:32:38,628 [ 1] INFO  Unity: SetDirection:(77, -63, 0)
+2020-02-12 17:32:38,711 [ 1] INFO  Unity: SetDirection:(87, -49, 0)
+2020-02-12 17:32:38,796 [ 1] INFO  Unity: SetDirection:(94, -33, 0)
+2020-02-12 17:32:38,877 [ 1] INFO  Unity: SetDirection:(99, -16, 0)
+2020-02-12 17:32:38,977 [ 1] INFO  Unity: SetDirection:(100, 5, 0)
+2020-02-12 17:32:39,076 [ 1] INFO  Unity: SetDirection:(97, 26, 0)
+2020-02-12 17:32:39,175 [ 1] INFO  Unity: SetDirection:(89, 45, 0)
+2020-02-12 17:32:39,275 [ 1] INFO  Unity: SetDirection:(78, 63, 0)
+2020-02-12 17:32:39,392 [ 1] INFO  Unity: SetDirection:(63, 77, 0)
+2020-02-12 17:32:39,474 [ 1] INFO  Unity: SetDirection:(49, 87, 0)
+2020-02-12 17:32:39,556 [ 1] INFO  Unity: SetDirection:(33, 94, 0)
+2020-02-12 17:32:39,640 [ 1] INFO  Unity: SetDirection:(16, 99, 0)
+2020-02-12 17:32:39,739 [ 1] INFO  Unity: SetDirection:(-5, 100, 0)
+2020-02-12 17:32:39,838 [ 1] INFO  Unity: SetDirection:(-26, 97, 0)
+2020-02-12 17:32:39,937 [ 1] INFO  Unity: SetDirection:(-45, 89, 0)
+2020-02-12 17:32:40,037 [ 1] INFO  Unity: SetDirection:(-63, 78, 0)
+2020-02-12 17:32:40,136 [ 1] INFO  Unity: SetDirection:(-77, 63, 0)
+2020-02-12 17:32:40,219 [ 1] INFO  Unity: SetDirection:(-87, 49, 0)
+2020-02-12 17:32:40,301 [ 1] INFO  Unity: SetDirection:(-94, 33, 0)
+2020-02-12 17:32:40,385 [ 1] INFO  Unity: SetDirection:(-99, 16, 0)
+2020-02-12 17:32:40,485 [ 1] INFO  Unity: SetDirection:(-100, -5, 0)
+2020-02-12 17:32:40,583 [ 1] INFO  Unity: SetDirection:(-97, -26, 0)
+2020-02-12 17:32:40,682 [ 1] INFO  Unity: SetDirection:(-89, -45, 0)
+2020-02-12 17:32:40,782 [ 1] INFO  Unity: SetDirection:(-78, -63, 0)
+2020-02-12 17:32:40,881 [ 1] INFO  Unity: SetDirection:(-63, -77, 0)
+2020-02-12 17:32:40,965 [ 1] INFO  Unity: SetDirection:(-49, -87, 0)
+2020-02-12 17:32:41,047 [ 1] INFO  Unity: SetDirection:(-33, -94, 0)
+2020-02-12 17:32:41,130 [ 1] INFO  Unity: SetDirection:(-16, -99, 0)
+2020-02-12 17:32:41,229 [ 1] INFO  Unity: SetDirection:(5, -100, 0)
+2020-02-12 17:32:41,329 [ 1] INFO  Unity: SetDirection:(26, -97, 0)
+2020-02-12 17:32:41,430 [ 1] INFO  Unity: SetDirection:(45, -89, 0)
+2020-02-12 17:32:41,531 [ 1] INFO  Unity: SetDirection:(63, -78, 0)
+2020-02-12 17:32:41,630 [ 1] INFO  Unity: SetDirection:(77, -63, 0)
+2020-02-12 17:32:41,713 [ 1] INFO  Unity: SetDirection:(87, -49, 0)
+2020-02-12 17:32:41,846 [ 1] INFO  Unity: SetDirection:(95, -32, 0)
+2020-02-12 17:32:42,339 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2020-02-12 17:32:42,341 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+
+2020-02-12 17:32:42,347 [ 1] INFO  Unity: Character_4_zhanshi OnDestroy :ID:4 POS:(5030, 4025, 820) DIR:(95, -32, 0) SPD:0 
