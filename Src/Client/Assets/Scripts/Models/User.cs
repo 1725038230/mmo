@@ -4,19 +4,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Models
 {
     class User : Singleton<User>
     {
         SkillBridge.Message.NUserInfo userInfo;
-
-
+        public UnityAction goldChange;
+        
         public SkillBridge.Message.NUserInfo Info
         {
             get { return userInfo; }
         }
-
 
         public void SetupUserInfo(SkillBridge.Message.NUserInfo info)
         {
@@ -28,5 +28,11 @@ namespace Models
         public SkillBridge.Message.NCharacterInfo CurrentCharacter { get; set; }
 
         public GameObject CurrentCharacterObject { get; set; }
+
+        public void AddGold(int gold)
+        {
+            this.CurrentCharacter.Gold += gold;
+            if (goldChange != null) goldChange();
+        }
     }
 }

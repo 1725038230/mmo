@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Models;
-public class UIMainCity : MonoBehaviour {
+public class UIMain :MonoSingleton<UIMain> {
 
     public Text avatarName;
     public Text avatarLevel;
-	void Start () {
+	protected override void OnStart () {
         this.UpdateAvatar();
 	}
 	
@@ -25,5 +25,26 @@ public class UIMainCity : MonoBehaviour {
     {
         SceneManager.Instance.LoadScene("CharSelect");
         Services.UserService.Instance.SendGameLeave();
+    }
+
+    public void OnClickTest()
+    {
+        UITest test=UIManager.Instance.Show<UITest>();
+        test.SetTitle("这是一个测试ui");
+    }
+
+    public void OnClicckBag()
+    {
+        UIBag bag = UIManager.Instance.Show<UIBag>();
+    }
+
+    public void OnClicckCharEquip()
+    {
+        UICharEquip CharEquip = UIManager.Instance.Show<UICharEquip>();
+    }
+
+    public void OnClickQuest()
+    {
+       UIQuestSystem QuestSystem = UIManager.Instance.Show<UIQuestSystem>();
     }
 }

@@ -122,8 +122,28 @@ namespace GameServer.Services
                 MapPosX = 5000,
                 MapPosY = 4000,
                 MapPosZ = 820,
+                Gold = 100000,
+                Equips = new byte[28],
             };
-            character= DBService.Instance.Entities.Characters.Add(character); 
+            var bag = new TCharacterBag();
+            bag.Owner = character;
+            bag.Items = new byte[0];
+            bag.Unlocked = 20;
+            character.Bag = DBService.Instance.Entities.TCharacterBags.Add(bag);
+          
+            character.Items.Add(new TCharacterItem()
+            {
+                Owner = character,
+                IteamID =1,
+                ItemCount=20,
+            });
+            character.Items.Add(new TCharacterItem()
+            {
+                Owner = character,
+                IteamID = 2,
+                ItemCount = 20,
+            });
+            character = DBService.Instance.Entities.Characters.Add(character);
             sender.Session.User.Player.Characters.Add(character);
             DBService.Instance.Entities.SaveChanges();
             foreach (var c in sender.Session.User.Player.Characters)
@@ -136,6 +156,7 @@ namespace GameServer.Services
                 info.Tid = c.ID;
                 message.Response.createChar.Characters.Add(info);
             }
+
             message.Response.createChar.Result = Result.Success;
             message.Response.createChar.Errormsg = "None";
         
@@ -155,6 +176,9 @@ namespace GameServer.Services
             message.Response.gameEnter.Result = Result.Success;
             message.Response.gameEnter.Errormsg = "none";
 
+            message.Response.gameEnter.Character = character.Info;
+
+
             byte[] data = PackageHandler.PackMessage(message);
             sender.SendData(data, 0, data.Length);
             sender.Session.Character = character;
@@ -166,8 +190,7 @@ namespace GameServer.Services
             Character character = sender.Session.Character;
             Log.InfoFormat(" UserGameLeaveRequest:characterId:{0}; {1},map:{2}", character.Id, character.Info.Name, character.Info.mapId);
 
-            CharacterManager.Instance.RemoveCharacter(character.Id);
-            MapManager.Instance[character.Info.mapId].CharacterLeave(character);
+            CharacterLeave(character);
             NetMessage message = new NetMessage();
             message.Response = new NetMessageResponse();
             message.Response.gameLeave = new UserGameLeaveResponse();
@@ -176,6 +199,12 @@ namespace GameServer.Services
 
             byte[] data = PackageHandler.PackMessage(message);
             sender.SendData(data, 0, data.Length);
+        }
+
+        public  void CharacterLeave(Character character)
+        {
+            CharacterManager.Instance.RemoveCharacter(character.Id);
+            MapManager.Instance[character.Info.mapId].CharacterLeave(character);
         }
     }
 }

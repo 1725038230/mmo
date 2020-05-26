@@ -12,6 +12,7 @@ using System.Threading;
 using Network;
 using GameServer.Services;
 using GameServer.Managers;
+using Managers;
 
 namespace GameServer
 {
@@ -30,8 +31,8 @@ namespace GameServer
             UserService.Instance.Init();
            // MapManager.Instance.Init();
             MapService.Instance.Init();
-           
-          
+            ItemService.Instance.Init();
+            QuestService.Instance.Init();     
            
             //HelloWorldService.Instance.Init();
             //DBService.Instance.Init();

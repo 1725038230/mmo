@@ -8,6 +8,7 @@ using UnityEngine;
 
 using SkillBridge.Message;
 using Models;
+using Managers;
 
 namespace Services
 {
@@ -213,7 +214,16 @@ namespace Services
             Debug.LogFormat(" UserGameEnterResponse:{0},{1}", message.Result, message.Errormsg);
             if(message.Result==Result.Success)
             {
-              
+                if(message.Character!=null)
+                {
+                    User.Instance.CurrentCharacter = message.Character;
+                    ItemManager.Instance.Init(message.Character.Items);
+                    Debug.LogFormat("  ItemManager.Instance.Init(message.Character.Items);:{0}", message.Character.Items.Count);
+                    BagManager.Instance.Init(message.Character.Bag);
+                    Debug.LogFormat("  BagManager.Instance.Init(message.Character.Bag);;:{0}        {1}", message.Character.Bag.Unlocked, message.Character.Bag.Items);
+                    EquipManager.Instance.Init(message.Character.Equips);
+                    QuestManager.Instance.Init(message.Character.Quests);
+                }
             }
         }
 

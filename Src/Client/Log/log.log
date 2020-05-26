@@ -1,180 +1,117 @@
-2020-02-16 19:45:04,162 [ 1] INFO  Unity: LoadingManager start
-2020-02-16 19:45:04,235 [ 1] INFO  Unity: DoConnect
-2020-02-16 19:45:04,237 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2020-02-16 19:45:04,240 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2020-05-25 20:57:28,361 [ 1] INFO  Unity: LoadingManager start
+2020-05-25 20:57:28,380 [ 1] INFO  Unity: DoConnect
+2020-05-25 20:57:28,382 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2020-05-25 20:57:28,385 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2020-02-16 19:45:04,244 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2020-02-16 19:45:07,540 [ 1] INFO  Unity: DataManager > DataManager()
-2020-02-16 19:45:14,869 [ 1] INFO  Unity: 11111
-2020-02-16 19:45:16,059 [ 1] INFO  Unity: 11111
-2020-02-16 19:45:17,378 [ 1] INFO  Unity: 进入
-2020-02-16 19:45:17,383 [ 1] INFO  Unity: LoadLevel: CharSelect
-2020-02-16 19:45:17,385 [ 1] INFO  Unity: StartCoroutine(LoadLevel(name))
-2020-02-16 19:45:17,789 [ 1] INFO  Unity: LevelLoadCompleted:1
-2020-02-16 19:45:17,795 [ 1] INFO  Unity: 数量：9
-2020-02-16 19:45:18,592 [ 1] INFO  Unity: idx1
-2020-02-16 19:45:18,593 [ 1] INFO  Unity: Select Char:8,  6666   ,Warrior
-2020-02-16 19:45:19,387 [ 1] INFO  Unity: SendGameEnterRequset: charactorIdx:1
-2020-02-16 19:45:19,424 [ 1] INFO  Unity:  UserGameEnterResponse:Success,none
-2020-02-16 19:45:19,426 [ 1] INFO  Unity: MapCharacterEnterRequest:1
-2020-02-16 19:45:19,426 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2020-02-16 19:45:19,428 [ 1] INFO  Unity: ---------------------------------------AddCharacter:1:6666 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2020-02-16 19:45:19,432 [ 1] INFO  Unity: LoadLevel: MainCity
-2020-02-16 19:45:19,433 [ 1] INFO  Unity: StartCoroutine(LoadLevel(name))
-2020-02-16 19:45:19,988 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2020-05-25 20:57:28,389 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2020-05-25 20:57:31,680 [ 1] INFO  Unity: DataManager > DataManager()
+2020-05-25 20:57:31,759 [ 1] INFO  Unity: MapDefine
+2020-05-25 20:57:31,770 [ 1] INFO  Unity: CharacterDefine
+2020-05-25 20:57:31,789 [ 1] INFO  Unity: TeleporterDefine
+2020-05-25 20:57:31,803 [ 1] INFO  Unity: NpcDefine
+2020-05-25 20:57:31,826 [ 1] INFO  Unity: ItemDefine
+2020-05-25 20:57:31,835 [ 1] INFO  Unity: ShopDefine
+2020-05-25 20:57:31,853 [ 1] INFO  Unity: ShopItemDefine
+2020-05-25 20:57:31,871 [ 1] INFO  Unity: EquipDefine
+2020-05-25 20:57:31,891 [ 1] INFO  Unity: QuestDefine
+2020-05-25 20:57:38,175 [ 1] INFO  Unity: 3333
+2020-05-25 20:57:45,502 [ 1] INFO  Unity: 5555
+2020-05-25 20:57:45,551 [ 1] INFO  Unity: 进入
+2020-05-25 20:57:45,553 [ 1] INFO  Unity: LoadLevel: CharSelect
+2020-05-25 20:57:45,555 [ 1] INFO  Unity: StartCoroutine(LoadLevel(name))
+2020-05-25 20:57:47,272 [ 1] INFO  Unity: LevelLoadCompleted:1
+2020-05-25 20:57:47,300 [ 1] INFO  Unity: 数量：1
+2020-05-25 20:57:48,145 [ 1] INFO  Unity: idx0
+2020-05-25 20:57:48,146 [ 1] INFO  Unity: Select Char:8,  123   ,Warrior
+2020-05-25 20:57:48,823 [ 1] INFO  Unity: SendGameEnterRequset: charactorIdx:0
+2020-05-25 20:57:48,867 [ 1] INFO  Unity:  UserGameEnterResponse:Success,none
+2020-05-25 20:57:48,869 [ 1] INFO  Unity: ItemManager:Init[Id:1,count:20]
+2020-05-25 20:57:48,870 [ 1] INFO  Unity: ItemManager:Init[Id:2,count:20]
+2020-05-25 20:57:48,871 [ 1] INFO  Unity: ItemManager:Init[Id:3,count:5]
+2020-05-25 20:57:48,872 [ 1] INFO  Unity: ItemManager:Init[Id:4,count:10]
+2020-05-25 20:57:48,874 [ 1] INFO  Unity:   ItemManager.Instance.Init(message.Character.Items);:4
+2020-05-25 20:57:48,875 [ 1] INFO  Unity:      ------------info.items:System.Byte[]                    type[System.Byte[]]
+2020-05-25 20:57:48,877 [ 1] INFO  Unity:   BagManager.Instance.Init(message.Character.Bag);;:20        System.Byte[]
+2020-05-25 20:57:48,884 [ 1] INFO  Unity: MapCharacterEnterRequest:1
+2020-05-25 20:57:48,885 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2020-05-25 20:57:48,887 [ 1] INFO  Unity: ---------------------------------------AddCharacter:2:123 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2020-05-25 20:57:48,890 [ 1] INFO  Unity: LoadLevel: MainCity
+2020-05-25 20:57:48,890 [ 1] INFO  Unity: StartCoroutine(LoadLevel(name))
+2020-05-25 20:57:50,986 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
 
-2020-02-16 19:45:19,988 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2020-05-25 20:57:50,987 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
 
-2020-02-16 19:45:20,155 [ 1] INFO  Unity: LevelLoadCompleted:1
-2020-02-16 19:45:20,160 [ 1] WARN  Unity: DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
-UnityEngine.Object:DontDestroyOnLoad(Object)
-MonoSingleton`1:Start() (at Assets/Scripts/Utilities/MonoSingleton.cs:29)
+2020-05-25 20:57:51,145 [ 1] INFO  Unity: LevelLoadCompleted:1
+2020-05-25 20:57:57,253 [ 1] WARN  Unity: Animator is not playing an AnimatorController
+UnityEngine.Animator:SetTrigger(String)
+NPCController:Relax() (at Assets/Scripts/GameObject/NPCController.cs:66)
+<Actions>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/NPCController.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-2020-02-16 19:45:21,070 [ 1] INFO  Unity: MoveForward
-2020-02-16 19:45:21,135 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
-2020-02-16 19:45:21,231 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
-2020-02-16 19:45:21,331 [ 1] INFO  Unity: SetDirection:(85, -52, 0)
-2020-02-16 19:45:21,431 [ 1] INFO  Unity: SetDirection:(73, -69, 0)
-2020-02-16 19:45:21,530 [ 1] INFO  Unity: SetDirection:(57, -82, 0)
-2020-02-16 19:45:21,611 [ 1] INFO  Unity: SetDirection:(42, -91, 0)
-2020-02-16 19:45:21,695 [ 1] INFO  Unity: SetDirection:(25, -97, 0)
-2020-02-16 19:45:21,794 [ 1] INFO  Unity: SetDirection:(5, -100, 0)
-2020-02-16 19:45:21,893 [ 1] INFO  Unity: SetDirection:(-13, -99, 0)
-2020-02-16 19:45:22,689 [ 1] INFO  Unity: SetDirection:(-30, -95, 0)
-2020-02-16 19:45:23,186 [ 1] INFO  Unity: SetDirection:(-47, -88, 0)
-2020-02-16 19:45:23,353 [ 1] INFO  Unity: SetDirection:(-63, -77, 0)
-2020-02-16 19:45:23,452 [ 1] INFO  Unity: SetDirection:(-78, -63, 0)
-2020-02-16 19:45:23,551 [ 1] INFO  Unity: SetDirection:(-89, -46, 0)
-2020-02-16 19:45:23,636 [ 1] INFO  Unity: SetDirection:(-96, -29, 0)
-2020-02-16 19:45:23,734 [ 1] INFO  Unity: SetDirection:(-100, -10, 0)
-2020-02-16 19:45:23,869 [ 1] INFO  Unity: SetDirection:(-100, 8, 0)
-2020-02-16 19:45:24,467 [ 1] INFO  Unity: SetDirection:(-99, -11, 0)
-2020-02-16 19:45:26,720 [ 1] INFO  Unity: SetDirection:(-96, -29, 0)
-2020-02-16 19:45:27,698 [ 1] INFO  Unity: SetDirection:(-99, -11, 0)
-2020-02-16 19:45:28,785 [ 1] INFO  Unity: SetDirection:(-100, 7, 0)
-2020-02-16 19:45:29,100 [ 1] INFO  Unity: SetDirection:(-97, 25, 0)
-2020-02-16 19:45:29,432 [ 1] INFO  Unity: SetDirection:(-100, 8, 0)
-2020-02-16 19:45:29,548 [ 1] INFO  Unity: SetDirection:(-99, -12, 0)
-2020-02-16 19:45:29,651 [ 1] INFO  Unity: SetDirection:(-95, -31, 0)
-2020-02-16 19:45:31,872 [ 1] INFO  Unity: SetDirection:(-88, -47, 0)
-2020-02-16 19:45:32,053 [ 1] INFO  Unity: SetDirection:(-79, -62, 0)
-2020-02-16 19:45:32,995 [ 1] INFO  Unity: SetDirection:(-88, -47, 0)
-2020-02-16 19:45:33,729 [ 1] INFO  Unity: SetDirection:(-78, -62, 0)
-2020-02-16 19:45:33,827 [ 1] INFO  Unity: SetDirection:(-65, -76, 0)
-2020-02-16 19:45:33,925 [ 1] INFO  Unity: SetDirection:(-48, -88, 0)
-2020-02-16 19:45:34,058 [ 1] INFO  Unity: SetDirection:(-31, -95, 0)
-2020-02-16 19:45:34,720 [ 1] INFO  Unity: SetDirection:(-49, -87, 0)
-2020-02-16 19:45:34,820 [ 1] INFO  Unity: SetDirection:(-65, -76, 0)
-2020-02-16 19:45:34,902 [ 1] INFO  Unity: SetDirection:(-78, -63, 0)
-2020-02-16 19:45:35,018 [ 1] INFO  Unity: SetDirection:(-88, -47, 0)
-2020-02-16 19:45:35,797 [ 1] INFO  Unity: SetDirection:(-95, -30, 0)
-2020-02-16 19:45:35,963 [ 1] INFO  Unity: SetDirection:(-99, -12, 0)
-2020-02-16 19:45:36,907 [ 1] INFO  Unity: SetDirection:(-100, 6, 0)
-2020-02-16 19:45:37,059 [ 1] INFO  Unity: OnTriggerEnter
-2020-02-16 19:45:37,060 [ 1] INFO  Unity: TeleportObject:Character [6666] Enter Teleporter [3:主城传入点1]
-2020-02-16 19:45:39,526 [ 1] INFO  Unity: SetDirection:(-97, 24, 0)
-2020-02-16 19:45:40,040 [ 1] INFO  Unity: OnTriggerEnter
-2020-02-16 19:45:40,042 [ 1] INFO  Unity: TeleportObject:Character [6666] Enter Teleporter [1:主城->野外]
-2020-02-16 19:45:40,044 [ 1] INFO  Unity: MapTeleporter:telepoter:1
-2020-02-16 19:45:40,073 [ 1] INFO  Unity: OnMapCharacterLeave:char ID:1
-2020-02-16 19:45:40,077 [ 1] INFO  Unity: RemoveCharacter:1
-2020-02-16 19:45:40,080 [ 1] INFO  Unity: MapCharacterEnterRequest:2
-2020-02-16 19:45:40,080 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2 Count:1
-2020-02-16 19:45:40,081 [ 1] INFO  Unity: ---------------------------------------AddCharacter:1:6666 Map:2 Entity:(1:pos:(2946,3962,116),dir:(100,0,0),spd:300
-2020-02-16 19:45:40,082 [ 1] INFO  Unity: -----------------进入OnCharacterEnter
-2020-02-16 19:45:40,088 [ 1] INFO  Unity: LoadLevel: Map01
-2020-02-16 19:45:40,090 [ 1] INFO  Unity: StartCoroutine(LoadLevel(name))
-2020-02-16 19:45:40,092 [ 1] INFO  Unity: Character_1_6666 OnDestroy :ID:1 POS:(822, 2509, 806) DIR:(-97, 24, 0) SPD:300 
-2020-02-16 19:45:41,293 [ 1] INFO  Unity: MoveForward
-2020-02-16 19:45:41,415 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2020-05-25 20:57:57,682 [ 1] WARN  Unity: Animator is not playing an AnimatorController
+UnityEngine.Animator:SetTrigger(String)
+NPCController:Relax() (at Assets/Scripts/GameObject/NPCController.cs:66)
+<Actions>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/NPCController.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-2020-02-16 19:45:41,687 [ 1] INFO  Unity: LevelLoadCompleted:1
-2020-02-16 19:45:41,688 [ 1] INFO  Unity: Stop
-2020-02-16 19:45:42,619 [ 1] INFO  Unity: OnTriggerEnter
-2020-02-16 19:45:42,620 [ 1] INFO  Unity: TeleportObject:Character [6666] Enter Teleporter [6:野外传入点]
-2020-02-16 19:45:43,829 [ 1] INFO  Unity: MoveForward
-2020-02-16 19:45:43,944 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
-2020-02-16 19:45:44,044 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
-2020-02-16 19:45:44,127 [ 1] INFO  Unity: SetDirection:(86, -51, 0)
-2020-02-16 19:45:44,227 [ 1] INFO  Unity: SetDirection:(74, -68, 0)
-2020-02-16 19:45:44,310 [ 1] INFO  Unity: SetDirection:(61, -79, 0)
-2020-02-16 19:45:44,391 [ 1] INFO  Unity: SetDirection:(46, -89, 0)
-2020-02-16 19:45:44,491 [ 1] INFO  Unity: SetDirection:(27, -96, 0)
-2020-02-16 19:45:44,574 [ 1] INFO  Unity: SetDirection:(9, -100, 0)
-2020-02-16 19:45:44,674 [ 1] INFO  Unity: SetDirection:(-10, -99, 0)
-2020-02-16 19:45:44,807 [ 1] INFO  Unity: SetDirection:(-28, -96, 0)
-2020-02-16 19:45:45,105 [ 1] INFO  Unity: Stop
-2020-02-16 19:45:53,757 [ 1] INFO  Unity: SetDirection:(-45, -89, 0)
-2020-02-16 19:45:53,873 [ 1] INFO  Unity: SetDirection:(-61, -79, 0)
-2020-02-16 19:45:53,955 [ 1] INFO  Unity: SetDirection:(-74, -67, 0)
-2020-02-16 19:45:54,055 [ 1] INFO  Unity: SetDirection:(-86, -50, 0)
-2020-02-16 19:45:54,154 [ 1] INFO  Unity: SetDirection:(-95, -31, 0)
-2020-02-16 19:45:54,253 [ 1] INFO  Unity: SetDirection:(-99, -11, 0)
-2020-02-16 19:45:54,337 [ 1] INFO  Unity: SetDirection:(-100, 7, 0)
-2020-02-16 19:45:54,437 [ 1] INFO  Unity: SetDirection:(-96, 27, 0)
-2020-02-16 19:45:54,520 [ 1] INFO  Unity: SetDirection:(-90, 43, 0)
-2020-02-16 19:45:54,570 [ 1] INFO  Unity: MoveForward
-2020-02-16 19:45:54,601 [ 1] INFO  Unity: SetDirection:(-81, 58, 0)
-2020-02-16 19:45:54,701 [ 1] INFO  Unity: SetDirection:(-70, 72, 0)
-2020-02-16 19:45:55,124 [ 1] INFO  Unity: SetDirection:(-56, 83, 0)
-2020-02-16 19:45:55,241 [ 1] INFO  Unity: SetDirection:(-40, 92, 0)
-2020-02-16 19:45:55,353 [ 1] INFO  Unity: SetDirection:(-22, 97, 0)
-2020-02-16 19:45:55,451 [ 1] INFO  Unity: SetDirection:(-2, 100, 0)
-2020-02-16 19:45:55,535 [ 1] INFO  Unity: SetDirection:(16, 99, 0)
-2020-02-16 19:45:55,635 [ 1] INFO  Unity: SetDirection:(36, 93, 0)
-2020-02-16 19:45:55,733 [ 1] INFO  Unity: SetDirection:(53, 85, 0)
-2020-02-16 19:45:55,886 [ 1] INFO  Unity: SetDirection:(67, 74, 0)
-2020-02-16 19:45:56,362 [ 1] INFO  Unity: SetDirection:(80, 61, 0)
-2020-02-16 19:45:56,457 [ 1] INFO  Unity: SetDirection:(89, 46, 0)
-2020-02-16 19:45:56,557 [ 1] INFO  Unity: SetDirection:(96, 26, 0)
-2020-02-16 19:45:56,656 [ 1] INFO  Unity: SetDirection:(100, 6, 0)
-2020-02-16 19:45:56,740 [ 1] INFO  Unity: SetDirection:(99, -12, 0)
-2020-02-16 19:45:56,839 [ 1] INFO  Unity: SetDirection:(95, -32, 0)
-2020-02-16 19:45:56,926 [ 1] INFO  Unity: SetDirection:(88, -48, 0)
-2020-02-16 19:45:57,025 [ 1] INFO  Unity: SetDirection:(78, -63, 0)
-2020-02-16 19:45:57,207 [ 1] INFO  Unity: SetDirection:(65, -76, 0)
-2020-02-16 19:45:58,400 [ 1] INFO  Unity: SetDirection:(50, -87, 0)
-2020-02-16 19:46:00,637 [ 1] INFO  Unity: SetDirection:(32, -95, 0)
-2020-02-16 19:46:00,735 [ 1] INFO  Unity: SetDirection:(14, -99, 0)
-2020-02-16 19:46:00,818 [ 1] INFO  Unity: SetDirection:(-4, -100, 0)
-2020-02-16 19:46:00,920 [ 1] INFO  Unity: SetDirection:(-23, -97, 0)
-2020-02-16 19:46:01,083 [ 1] INFO  Unity: SetDirection:(-40, -92, 0)
-2020-02-16 19:46:02,094 [ 1] INFO  Unity: SetDirection:(-56, -83, 0)
-2020-02-16 19:46:02,210 [ 1] INFO  Unity: SetDirection:(-70, -71, 0)
-2020-02-16 19:46:03,901 [ 1] INFO  Unity: SetDirection:(-82, -58, 0)
-2020-02-16 19:46:04,066 [ 1] INFO  Unity: SetDirection:(-92, -40, 0)
-2020-02-16 19:46:04,167 [ 1] INFO  Unity: SetDirection:(-98, -21, 0)
-2020-02-16 19:46:04,264 [ 1] INFO  Unity: SetDirection:(-100, -1, 0)
-2020-02-16 19:46:04,347 [ 1] INFO  Unity: SetDirection:(-99, 17, 0)
-2020-02-16 19:46:04,496 [ 1] INFO  Unity: SetDirection:(-93, 37, 0)
-2020-02-16 19:46:04,546 [ 1] INFO  Unity: SetDirection:(-83, 55, 0)
-2020-02-16 19:46:04,629 [ 1] INFO  Unity: SetDirection:(-72, 69, 0)
-2020-02-16 19:46:04,728 [ 1] INFO  Unity: SetDirection:(-56, 83, 0)
-2020-02-16 19:46:04,827 [ 1] INFO  Unity: SetDirection:(-38, 93, 0)
-2020-02-16 19:46:04,927 [ 1] INFO  Unity: SetDirection:(-18, 98, 0)
-2020-02-16 19:46:05,028 [ 1] INFO  Unity: SetDirection:(2, 100, 0)
-2020-02-16 19:46:05,142 [ 1] INFO  Unity: SetDirection:(19, 98, 0)
-2020-02-16 19:46:05,954 [ 1] INFO  Unity: SetDirection:(0, 100, 0)
-2020-02-16 19:46:06,120 [ 1] INFO  Unity: SetDirection:(-18, 98, 0)
-2020-02-16 19:46:07,474 [ 1] INFO  Unity: SetDirection:(0, 100, 0)
-2020-02-16 19:46:07,855 [ 1] INFO  Unity: SetDirection:(18, 98, 0)
-2020-02-16 19:46:08,270 [ 1] INFO  Unity: OnTriggerEnter
-2020-02-16 19:46:08,270 [ 1] INFO  Unity: TeleportObject:Character [6666] Enter Teleporter [6:野外传入点]
-2020-02-16 19:46:09,265 [ 1] INFO  Unity: SetDirection:(37, 93, 0)
-2020-02-16 19:46:09,396 [ 1] INFO  Unity: SetDirection:(54, 84, 0)
-2020-02-16 19:46:09,498 [ 1] INFO  Unity: SetDirection:(70, 71, 0)
-2020-02-16 19:46:09,595 [ 1] INFO  Unity: SetDirection:(83, 55, 0)
-2020-02-16 19:46:09,696 [ 1] INFO  Unity: SetDirection:(93, 37, 0)
-2020-02-16 19:46:09,826 [ 1] INFO  Unity: SetDirection:(98, 19, 0)
-2020-02-16 19:46:10,572 [ 1] INFO  Unity: SetDirection:(93, 37, 0)
-2020-02-16 19:46:10,672 [ 1] INFO  Unity: SetDirection:(84, 55, 0)
-2020-02-16 19:46:10,789 [ 1] INFO  Unity: SetDirection:(72, 69, 0)
-2020-02-16 19:46:11,252 [ 1] INFO  Unity: SetDirection:(83, 55, 0)
-2020-02-16 19:46:11,337 [ 1] INFO  Unity: Stop
-2020-02-16 19:46:13,206 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2020-02-16 19:46:13,207 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2020-05-25 20:58:04,375 [ 1] WARN  Unity: Animator is not playing an AnimatorController
+UnityEngine.Animator:SetTrigger(String)
+NPCController:Relax() (at Assets/Scripts/GameObject/NPCController.cs:66)
+<Actions>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/NPCController.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+2020-05-25 20:58:07,092 [ 1] WARN  Unity: Animator is not playing an AnimatorController
+UnityEngine.Animator:SetTrigger(String)
+NPCController:Relax() (at Assets/Scripts/GameObject/NPCController.cs:66)
+<Actions>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/NPCController.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+2020-05-25 20:58:09,941 [ 1] WARN  Unity: Animator is not playing an AnimatorController
+UnityEngine.Animator:SetTrigger(String)
+NPCController:Relax() (at Assets/Scripts/GameObject/NPCController.cs:66)
+<Actions>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/NPCController.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+2020-05-25 20:58:14,845 [ 1] WARN  Unity: Animator is not playing an AnimatorController
+UnityEngine.Animator:SetTrigger(String)
+NPCController:Relax() (at Assets/Scripts/GameObject/NPCController.cs:66)
+<Actions>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/NPCController.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+2020-05-25 20:58:17,664 [ 1] WARN  Unity: Animator is not playing an AnimatorController
+UnityEngine.Animator:SetTrigger(String)
+NPCController:Relax() (at Assets/Scripts/GameObject/NPCController.cs:66)
+<Actions>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/NPCController.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+2020-05-25 20:58:24,654 [ 1] WARN  Unity: Animator is not playing an AnimatorController
+UnityEngine.Animator:SetTrigger(String)
+NPCController:Relax() (at Assets/Scripts/GameObject/NPCController.cs:66)
+<Actions>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/NPCController.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+2020-05-25 20:58:24,686 [ 1] WARN  Unity: Animator is not playing an AnimatorController
+UnityEngine.Animator:SetTrigger(String)
+NPCController:Relax() (at Assets/Scripts/GameObject/NPCController.cs:66)
+<Actions>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/NPCController.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+2020-05-25 20:58:30,022 [ 1] WARN  Unity: Animator is not playing an AnimatorController
+UnityEngine.Animator:SetTrigger(String)
+NPCController:Relax() (at Assets/Scripts/GameObject/NPCController.cs:66)
+<Actions>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/NPCController.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+2020-05-25 20:58:31,481 [ 1] WARN  Unity: Animator is not playing an AnimatorController
+UnityEngine.Animator:SetTrigger(String)
+NPCController:Relax() (at Assets/Scripts/GameObject/NPCController.cs:66)
+<Actions>c__Iterator0:MoveNext() (at Assets/Scripts/GameObject/NPCController.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+2020-05-25 20:58:33,286 [ 1] INFO  Unity: Character_2_123 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2020-05-25 20:58:33,287 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2020-05-25 20:58:33,288 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:181)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:176)
 
-2020-02-16 19:46:13,208 [ 1] INFO  Unity: Character_1_6666 OnDestroy :ID:1 POS:(3804, 4109, 23) DIR:(83, 55, 0) SPD:0 

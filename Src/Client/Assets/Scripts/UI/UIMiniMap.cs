@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Models;
 using Managers;
-public class UIMiniMap : MonoSingleton<UIMiniMap>{
+public class UIMiniMap : MonoBehaviour{
 
     public Image miniMap;
     public Image arrow;
@@ -12,17 +12,19 @@ public class UIMiniMap : MonoSingleton<UIMiniMap>{
     public Collider MiniMapBondingBox;
 
     private Transform playerTransform;
-	protected override void OnStart () {
-        InitMap();
+	void Start () {
+        MiniMapManager.Instance.miniMap = this;
+            UpdateMap();
 	}
 	
-    void InitMap()
+    public void UpdateMap()
     {
         this.mapName.text = User.Instance.CurrentMapData.Name;
-        if(this.miniMap.overrideSprite==null)
-            this.miniMap.overrideSprite = MiniMapManager.Instance.LoadCurrentMiniMap();
+        this.miniMap.overrideSprite = MiniMapManager.Instance.LoadCurrentMiniMap();
         this.miniMap.SetNativeSize();
         this.miniMap.transform.localPosition = Vector3.zero;
+        this.MiniMapBondingBox = MiniMapManager.Instance.MiniMapBoundingBox;
+        playerTransform = null;
     }
 	// Update is called once per frame
 	void Update () {
